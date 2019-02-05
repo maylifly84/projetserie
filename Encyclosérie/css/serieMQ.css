@@ -1,0 +1,342 @@
+/* Feuille CSS pour chaque fiche individuelle de serie 
+* ajustement des titres, et polices
+* ajustement padding et margin
+* adaptation de l'image du jumbotron 
+*/
+
+@media (max-width: 319px) {
+  .jumbotron h1 {
+    font-size: 25px;
+    line-height: 2;
+  }
+
+  .facts {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .Synop h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .facts ul {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .facts h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .jumbotron {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .col-md-8 p {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .citations p {
+    font-size: 15px;
+  }
+
+  .nav a {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .page-footer p {
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .review h2 {
+    font-size: 20px;
+  }
+
+  .review h3 {
+    font-size: 18px;
+  }
+
+  .citation {
+    font-size: 20px;
+  }
+
+  .personnages h2 {
+
+    font-size: 28px; 
+  }
+}
+
+/* Media queries pour  petits écrans  min 319px max 415px 
+ * type Iphone 5 et Galaxy (Samsung)
+ * Reduction des tailles d'ecriture
+ * reduction des padding
+ * Modification des alignements 
+ */
+
+@media (min-width: 319px) and (max-width: 415px) {
+  .jumbotron h1 {
+    font-size: 30px;
+    line-height: 1.74;
+    height: 100px;
+  }
+
+  .facts {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .col-md-8 h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+  }
+
+  .col-md-8 p {
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .jumbotron {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .nav a {
+    font-size: 13px;
+
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .col-md-8 p {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .facts ul {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .facts h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .page-footer p {
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .review h2 {
+    font-size: 25px;
+  }
+
+  .review h3 {
+    font-size: 18px;
+  }
+
+  .citation {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 559px) {
+  .facts {
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+
+  .jumbotron h1 {
+    font-size: 35px;
+    height: 150px;
+  }
+
+  .col-md-8 h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+  }
+
+  .col-md-8 p {
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .jumbotron {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .nav a {
+    font-size: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .col-md-8 p {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .facts ul {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .facts h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  img {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .row {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 559px) and (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 35px;
+    height: 210px;
+  }
+
+  .col-md-8 h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+  }
+
+  .col-md-8 p {
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .jumbotron {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  img {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .col-md-8 p {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .facts ul {
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .facts h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .facts {
+    margin-right:40px;
+    margin-left: 40px;
+  }
+
+  img {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 300px;
+    width: 300px;
+  }
+
+
+  
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+  .jumbotron h1 {
+    font-size: 35px;
+    height: 230px;
+  }
+
+  .col-md-8 h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+  }
+
+  .col-md-8 p {
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .jumbotron {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  img {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .col-md-8 p {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .facts ul {
+    font-size: 12px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+
+  .facts h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .facts {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .Synop p {
+    font-size: 20px;
+  }
+}

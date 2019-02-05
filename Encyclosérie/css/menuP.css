@@ -1,0 +1,92 @@
+/* CSS pour la page d'accueil */
+
+html {
+
+  font-family: 'Abel', sans-serif;
+
+}
+
+/* Entête */
+.jumbotron {
+
+	background-color: #4AAAB5; 
+	margin-top: 20px; 
+
+}
+
+.jumbotron p {
+
+	font-size: 20px;
+}
+
+
+.jumbotron h1 {
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size: 70px;
+	line-height: 100px;
+}
+
+.titre {
+
+	color: #E8C547;
+	text-align: center;
+	font-size: 30px; 
+	padding-bottom: 10px; 
+}
+
+
+.container .col-lg-4  {
+
+	 margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.ligne {
+
+	background-color: black;
+}
+
+
+.page-footer{
+
+	background-color: #4AAAB5; 
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 10px 10px; 
+	margin-bottom: 20px; 
+
+}
+
+.selection {
+
+	padding-bottom: 40px; 
+}
+
+
+/* Boutons */
+.btn {	
+
+	padding-top: 5px; 
+	background-color: #177E89;
+	color : white;
+	border :1px solid #177E89;
+}
+
+.btn:hover {
+	background-color: #E8C547;
+	border :1px solid #E8C547;
+}
+
+
+h2 { 
+
+font-family: 'Lobster', Georgia, Times, serif;
+ 
+ }
+
+
+
+
+
+

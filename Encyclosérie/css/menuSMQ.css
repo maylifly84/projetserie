@@ -1,0 +1,166 @@
+/* CSS Media Queries pour la page accueil de chaque série */
+
+@media (max-width: 319px) {
+
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+
+  .jumbotron {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .col-md-8 {
+    padding-left: 15px;
+    display: flex;
+  	flex-direction: column;
+  	justify-content: flex-start;
+  	align-items: flex-start;
+ 
+ 
+  }
+
+  .col-md-8 p {
+    font-size: 18px;
+
+  }
+
+  .nav a {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+/* Media queries pour  petits écrans  min 320px max 359px 
+ * type Iphone 5
+ * Reduction des tailles d'ecriture
+ * reduction des padding
+ * Modification des alignements 
+ */
+
+
+@media (min-width: 319px) and (max-width: 700px) {
+  .jumbotron h1 {
+    font-size: 32px;
+  }
+
+  .col-md-8 {
+    padding-left: 15px;
+    display: flex;
+  	flex-direction: column;
+  	justify-content: flex-start;
+  	align-items: center;
+  
+  }
+
+  .col-md-8 h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+  }
+
+  .col-md-8 p {
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .jumbotron {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+
+img {
+
+  max-height: 300px; 
+  max-width: 300px; 
+}
+
+.nav a {
+    font-size: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+}
+
+
+/* Media queries pour  écrans type Ipad 
+ * Adaptation des tailles de police 
+ * Modification des padding
+ * Modification des alignements 
+ * centrer verticalement les images
+ */
+
+@media (min-width: 700px) and (max-width: 770px) {
+  .jumbotron h1 {
+    font-size: 32px;
+  }
+
+  .col-md-8 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .col-md-8 h2 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+  }
+
+  .col-md-8 p {
+    font-size: 18px;
+  }
+
+  .jumbotron {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  img {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  max-height: 300px; 
+  max-width: 300px; 
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+
+	.col-md-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .jumbotron {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+
+  img {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+
+
+

@@ -1,0 +1,90 @@
+/* CSS pour la page accueil séries Reflexion */
+
+
+html {
+
+	font-family: 'Abel', sans-serif;
+}
+
+
+
+.jumbotron h1 {
+
+	font-family: 'Lobster', sans-serif;
+	font-size: 50px; 
+
+}
+
+.jumbotron {
+
+	background-color: #89B0AE;
+}
+
+a:hover {
+
+ color: #BEE3DB;
+ text-decoration:none; 
+ }
+
+ a:link 
+{ 
+text-decoration:none; 
+}
+
+a { color: black;
+		text-decoration:none; 
+
+ } 
+
+
+ hr {
+
+	background-color: #ffe66d;
+
+}
+
+.page-footer{
+
+	background-color: #89B0AE; 
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 10px 10px; 
+	margin-top: 30px; 
+	text-align: center; 
+
+}
+.btn {	background-color: black;
+	color : white;
+	border :1px solid black;
+}
+
+.btn:hover {
+
+	background-color: #BEE3DB;
+	border :1px solid #BEE3DB;
+
+}
+
+.col-md-8 {
+
+	padding-left: 70px; 
+	padding-right: 20px; 
+	
+}
+
+
+  .jumbotron {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,317 @@
+/* Page Media queries pour Page d'accueil */
+
+/* Media queries pour très petits écrans max 319px
+ * Reduction des tailles d'ecriture
+ * reduction des padding
+ * Modification des alignements 
+ */
+
+@media (max-width: 319px) {
+  .jumbotron h1 {
+    font-size: 30px;
+    line-height: 1; 
+  }
+
+  .jumbotron {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .jumbotron p {
+    font-size: 13px;
+  }
+
+  .selection h2 {
+    font-size: 20px;
+  }
+
+  .selection {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .page-footer {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 13px;
+  }
+}
+
+/* Media queries pour  petits écrans  min 320px max 359px 
+ * type Iphone 5
+ * Reduction des tailles d'ecriture
+ * reduction des padding
+ * Modification des alignements 
+ */
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .jumbotron h1 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 1;
+    padding-top: 10px;
+  }
+
+  .jumbotron {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+ 
+  .btn {
+    font-size: 12px;
+  }
+
+  .page-footer {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+  }
+
+  .selection {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+/* Media queries pour  écrans  min 360px max 412px 
+ * type Iphone 6, Pixel 2 
+ * Reduction des tailles d'ecriture
+ * reduction des padding
+ * Modification des alignements 
+ */
+
+@media (min-width: 360px) and (max-width: 412px) {
+  .jumbotron h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 1;
+    padding-top: 15px;
+  }
+
+  .jumbotron {
+    padding-top: 0;
+    margin-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .jumbotron p {
+    font-size: 20px;
+  }
+
+  .page-footer {
+    padding-bottom: 10px;
+  }
+
+  .selection {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+/* Media queries pour  écrans  min 360px max 412px 
+ * type Iphone 6, Pixel 2 
+ * Reduction des tailles d'ecriture
+ * reduction des padding
+ * Modification des alignements 
+ */
+
+@media (min-width: 413px) and (max-width: 576px) {
+  .jumbotron h1 {
+    font-size: 55px;
+    text-align: center;
+    line-height: 1;
+    padding-top: 20px;
+  }
+
+  .jumbotron {
+    padding-top: 0;
+    margin-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .jumbotron p {
+    font-size: 25px;
+  }
+
+
+
+  .page-footer {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .selection {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 700px) {
+
+  .jumbotron h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 1;
+    padding-top: 20px;
+  }
+
+  .jumbotron {
+    padding-top: 0;
+    margin-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .jumbotron p {
+    font-size: 20px;
+  }
+
+
+  .page-footer {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .selection {
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .btn {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+
+/* Media queries pour  écrans type Ipad 
+ * Adaptation des tailles de police 
+ * Modification des padding
+ * Modification des alignements 
+ */
+
+@media (min-width: 700px) and (max-width: 770px) {
+  .jumbotron h1 {
+    font-size: 60px;
+    line-height: 0.5;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .jumbotron {
+    padding-top: 0;
+    margin-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .jumbotron p {
+    font-size: 24px;
+  }
+
+  .card-title {
+    font-size: 25px;
+  }
+
+  .card-text {
+    font-size: 15px;
+    text-align: center;
+    padding-left:0px;
+  }
+
+  .page-footer {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .selection {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .btn {
+    font-size: 15px;
+      padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+/* Media queries pour  écrans type Ipad pro 1024px
+ * Adaptation des tailles de police 
+ * Modification des padding
+ * Modification des alignements 
+ */
+
+@media (min-width: 1023px) and (max-width: 1025px) {
+  .jumbotron h1 {
+    font-size: 60px;
+    line-height: 0.5;
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+
+  .jumbotron {
+    padding-top: 0;
+    margin-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .jumbotron p {
+    font-size: 25px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .page-footer {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .selection {
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+}

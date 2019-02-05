@@ -1,0 +1,144 @@
+html {
+
+	font-family: 'Abel', sans-serif;
+}
+
+
+
+.jumbotron {
+
+	background-color: #4AAAB5; 
+	margin-top: 20px; 
+
+
+}
+
+.jumbotron h1 {
+
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size: 70px;
+
+
+}
+
+.col-md-3 h2 {
+
+
+	font-size: 19px;
+	
+}
+
+.titre {
+
+	font-family: 'Lobster', Georgia, Times, serif;
+	padding-top: 10px;
+	padding-bottom : 15px;
+	font-size: 50px; 
+
+}
+
+ p {
+
+font-size: 20px; 
+
+}
+
+.btn {	
+	background-color: #177E89;
+	color : white;
+	border :1px solid #177E89;
+}
+
+.btn:hover {
+
+	background-color: #E8C547;
+	border :1px solid #E8C547;
+
+}
+
+.page-footer{
+
+	background-color: #4AAAB5; 
+	padding-bottom: 40px;
+	padding-top: 20px;
+	border-radius: 10px 10px; 
+	margin-bottom: 10px; 
+
+}
+
+hr {
+
+	background-color: black;
+}
+
+.btn {	
+	background-color: #177E89;
+	color : white;
+	border :1px solid #177E89;
+}
+
+.btn:hover {
+
+	background-color: #E8C547;
+	border :1px solid #E8C547;
+
+}
+
+a:hover {
+
+ color: #E8C547;
+ text-decoration:none; 
+ }
+
+ a:link 
+{ 
+text-decoration:none; 
+}
+
+a { color: black;
+		text-decoration:none; 
+
+ } 
+ .col-md-8 h2{
+
+ 	text-align: center;
+ 	font-family: 'Lobster', Georgia, Times, serif;
+ 	color: #E8C547;
+
+
+ }
+
+
+  .col-md-8 p{
+
+ 	font-size: 20px; 
+
+
+ }
+
+ .maq {
+
+ 	width: 300px;
+ 	height: 300px;
+ 	padding-bottom:15px; 
+ 	padding-top:15px; 
+ }
+ .fin {
+
+ 	background-color: #E1E6E1;
+ }
+ .fiche {
+
+width: 300px;
+padding-bottom:15px; 
+padding-top:15px;
+
+ }
+
+ .container h2 {
+
+	text-align: center;
+ 	font-family: 'Lobster', Georgia, Times, serif;
+ 	color: #E8C547;
+ }
+
